@@ -3,9 +3,10 @@
    <head>
       <meta charset="utf-8">	
       <meta http-equiv="X-UA-Compatible" content="IE=edge">	
-      <meta name="viewport" content="width=device-width, initial-scale-1">	
-      <title>Abby Portfolio</title>
+      <meta name="viewport" content="width=device-width, initial-scale-1">      	
+      <title>Jane Portfolio</title>
       <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Merriweather:100,900' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="css/bootstrap.css">	
       <link rel="stylesheet" href="css/styles.css">
       <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
@@ -15,11 +16,14 @@
       <div class="container">
          <div class="row">
 	   <div class="col-md-6">
-		<img class="title-logo" src="http://placehold.it/150x150" alt="Udacity logo">
+       		 <div class="title-logo-shape" id="title-logo">
+        		<div class="title-logo-shape" id="title-logo-inner"></div>
+			<img id="title-logo-u" src="images/udacity_logo_u.png" alt="Udacity logo">
+       		 </div>
 	   </div>
 	   <div class="col-md-6 text-right text-uppercase">
-	      <h1 class="title-super text-thin">Abby Dudley</h1>
-	      <h4>Marine Biologist</h4>
+	      <h1 class="title-super text-thin">Jane Doette</h1>
+	      <h4 class="text-thick">Front-End Ninja</h4>
 	   </div>
 	 </div>
 	 <div class="row">
@@ -29,37 +33,37 @@
 	 </div>
 	<div class="row">
 	    <div class="col-md-12">
-		<img class="img-responsive" src="http://placeimg.com/1300/250/animals" alt="Main image!">
+		<img class="img-responsive main-image" src="http://placeimg.com/1140/375/animals" alt="Main image!">
 	    </div>
-	 </div>
+	</div>
 	<div class="row">
 	    <div class="col-md-12">
-		<h2 class="text-muted">Featured Work</h2>
+		<h2 class="text-muted text-thick">Featured Work</h2>
 	    </div>
 	</div>
 	<div class="row text-center">
 	    <div class="col-md-4">
-		<img class="img-responsive" src="http://placeimg.com/350/150/animals" alt="Appify puppy"
-			data-toggle="modal" data-target="#appify">
-		<h3 class="text-uppercase">Abbify</h3>
-		<p>https://github.com/udacity/appify</p>
+		   <img class="img-responsive" src="http://placeimg.com/380/175/animals" alt="Appify puppy"
+			   data-toggle="modal" data-target="#appify">
+		   <h3 class="text-uppercase text-thick">Appify</h3>
+		   <a class="text-muted">https://github.com/udacity/Appify/</a>
 	    </div>
 	    <div class="col-md-4">
-		<img class="img-responsive" src="http://placeimg.com/350/150/animals" alt="Sunflower"
-			data-toggle="modal" data-target="#sunflower">
-		<h3 class="text-uppercase">Sunflower</h3>
-		<p>https://github.com/udacity/sunflower</p>
+		   <img class="img-responsive" src="http://placeimg.com/380/175/animals" alt="Sunflower"
+			   data-toggle="modal" data-target="#sunflower">
+		   <h3 class="text-uppercase text-thick">Sunflower</h3>
+		   <a class="text-muted">https://github.com/udacity/Sunflower/</a>
 	    </div>
 	    <div class="col-md-4">
-		<img class="img-responsive" src="http://placeimg.com/350/150/animals" alt="Bokeh"
-			data-toggle="modal" data-target="#bokeh">
-		<h3 class="text-uppercase">Bokeh</h3>
-		<p>https://github.com/udacity/bokeh</p>
+		   <img class="img-responsive" src="http://placeimg.com/380/175/animals" alt="Bokeh"
+			   data-toggle="modal" data-target="#bokeh">
+		   <h3 class="text-uppercase text-thick">Bokeh</h3>
+	  	   <a class="text-muted">https://github.com/udacity/Bokeh/</a>
 	    </div>
 	</div>
       </div>
 <!-- Modal -->
-	<div class="modal fade" id="appify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" 		aria-hidden="true">
+	<div class="modal fade" id="appify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   	   <div class="modal-dialog">
     	      <div class="modal-content">
      		 <div class="modal-header">

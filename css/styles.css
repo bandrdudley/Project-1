@@ -1,7 +1,18 @@
 body {
 	font-family: 'Lato', sans-serif;
-	color: #676858;
+	color: #676857;
 	font-weight: 300;
+}
+
+hr {
+	border: none;
+	height: 5px;
+	color: #BCBBBB;
+	background-color: #BCBBBB;	
+}
+
+h2 {
+	text-indent: 10px;
 }
 
 .text-muted {
@@ -12,9 +23,44 @@ body {
 	font-weight: 100;
 }
 
+.text-thick {
+	font-weight: 900;
+}
+
 .title-super{
-	font-size: 60px;
+	font-size: 50px;
 }
-.title-logo{
+.title-logo-shape{
+	border-radius: 50%;
+	display: inline-block;
+}
+.main-image{
+	margin-top: 7px;
+	margin-bottom: 20px;
+}
+
+#title-logo{
 	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background: #F8981C;
 }
+#title-logo-inner{
+	width: 85px;
+	height: 85px;
+	position: absolute;
+	background: white;
+	top: 7.5px;
+	left: 7.5px;
+	z-index: 2;
+}
+#title-logo-u{
+	width: 55px;
+	height: 50px;
+	z-index: 3;
+	position: absolute;
+	top: 27px;
+	left: 25px;
+}
+
